@@ -16,7 +16,6 @@ function App() {
         <Lengroup></Lengroup>
         <Sertfikat></Sertfikat>
         <Product></Product>
-        <Card></Card>
       </main>
     </>
   );
