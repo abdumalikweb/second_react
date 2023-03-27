@@ -1,0 +1,65 @@
+.carusel {
+  padding-top: 15%;
+  width: 50%;
+  @media screen and (max-width :877px) {
+    width: 100%;
+  }
+}
+.title_up {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 13px;
+  /* identical to box height, or 100% */
+
+  color: #2c2d2e;
+}
+.title {
+  padding: 17px 0px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  /* identical to box height, or 125% */
+
+  display: flex;
+  align-items: center;
+
+  color: #2c2d2e;
+}
+.text {
+  padding-bottom: 26px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  /* or 133% */
+
+  color: #2c2d2e;
+}
+
+.btn {
+  cursor: pointer;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  /* identical to box height, or 133% */
+
+  text-align: center;
+
+  /* text  /  color-text-contrast */
+
+  color: #ffffff;
+  border: none;
+  background: #ef7c00;
+  border-radius: 4px;
+  padding: 10px 20px;
+  &:hover {
+    background-color: #d16c00;
+  }
+}

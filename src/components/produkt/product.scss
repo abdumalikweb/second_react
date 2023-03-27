@@ -1,0 +1,61 @@
+.section4 {
+  padding-top: 100px;
+  h2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    /* identical to box height, or 125% */
+    text-align: center;
+    color: #2c2d2e;
+    span {
+      color: rgba(239, 124, 0, 1);
+    }
+  }
+  .items {
+    padding-top: 10px;
+    button {
+      cursor: pointer;
+      padding: 12px 20px;
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 13px;
+      line-height: 13px;
+      /* identical to box height, or 100% */
+      // display: flex;
+      align-items: center;
+      margin: 0px 5px;
+      text-align: center;
+      background: #fff;
+      /* color-primary */
+      color: #ef7c00;
+      border: 1px solid rgba(0, 16, 61, 0.12);
+      border-radius: 61px;
+      &:hover {
+        color: #fff;
+        background: #ef7c00;
+      }
+    }
+  }
+  .product_img {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    div {
+      width: 18%;
+      img {
+        width: 100%;
+      }
+    }
+    @media screen and (max-width: 750px) {
+    div{
+      width: 48%;
+    }
+    
+    }
+  }
+}
